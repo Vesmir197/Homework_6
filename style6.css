@@ -1,5 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&family=Sintony&family=Tomorrow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Sintony&family=Tomorrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Sintony&family=Tomorrow&display=swap');
 
 body{
     max-width: 1440px;
@@ -26,7 +28,7 @@ body{
 }
 .subject_a {
     color: rgb(142, 139, 139);
-    font-family: sans-serif;
+    font-family: 'Raleway';
 }
 .navBlock {
     top: 40px;
@@ -38,7 +40,7 @@ ul {
 }
 
 li {
-    font-family: sans-serif;
+    font-family: 'Raleway';
     font-size: 16px;
     list-style-type: none;
     text-transform: uppercase;
@@ -67,7 +69,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: 122vh 122vh;
-    font-family: sans-serif;
+    font-family: 'Raleway';
 }
 h3 {
   margin-left: 210px;
@@ -75,11 +77,11 @@ h3 {
   font-size: 16px;
   text-transform: uppercase;
   color: blue;
-  font-family: sans-serif;
+  font-family: 'Raleway';
 }
 h1 {
-    margin-left: 210px;
-  
+    font-weight: 700;
+    margin-left: 210px; 
 }
 
 h5 {
