@@ -149,10 +149,11 @@ div.description-meta {
         display: grid;
         grid-template-rows: repeat(1,2fr);
     }
-    div.education, div.orange{
-        width: 500px;
-        height: 800px;
+    div.program, div.meta, div.schools, div.people, div.participants, div.orange, div.description{
+        width: 450px;
+        height: 700px;
         padding: 0;
+        justify-items: start;
        
 }
     
