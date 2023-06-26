@@ -104,8 +104,8 @@ button {
     color: white;
 }
 div.education, div.orange{
-    width: 721px;
-    height: 766px;
+    width: 680px;
+    height: 750px;
 }
 div.description {
     width: 437px;
@@ -129,7 +129,7 @@ div.description-meta {
     }
 }
     p.mainMenu {
-        margin-left: 20px; 
+        margin-left: 10px; 
         margin-right: 10px;
         display: block;
     }
@@ -149,9 +149,9 @@ div.description-meta {
         display: grid;
         grid-template-rows: repeat(1,2fr);
     }
-    .orange, .description{
-        width: 450px;
-        height: 700px;
+    div.orange, div.description{
+        width: 460px;
+        height: 800px;
         padding: 0;
         justify-items: start;
        
