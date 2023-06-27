@@ -129,12 +129,20 @@ div.description-meta {
     }
 }  
 @media screen and (max-width:1000px) {
+    p.mainMenu{
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: block;
+    }
+}
+@media screen and (max-width:1000px) {
     .subject_a, a.schools, a.partners, a.support{  
          display: none;
     }
  
 } 
-    .main {
+  .main {
         display: grid;
         grid-template-rows: 480px 480px;
         grid-template-rows: repeat(1,2fr);
