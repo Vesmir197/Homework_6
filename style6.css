@@ -73,7 +73,7 @@ a {
 main {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 122vh 122vh;
+    grid-template-rows: 820px 820px;
     font-family: 'Raleway';
 }
 h3 {
@@ -98,14 +98,14 @@ h5 {
 button {
     width: 213px;
     height: 55px;
-    margin-left: 210px;
-    margin-top: 70px;
+    margin-left: 260px;
+    margin-top: 40px;
     background-color: rgb(37, 37, 244);
     color: white;
 }
-div.education, div.orange{
-    width: 680px;
-    height: 750px;
+div.program, div.education, div.orange, div.meta{
+    width: 200px;
+    height: 820px;
 }
 div.description {
     width: 437px;
@@ -123,42 +123,49 @@ div.description-meta {
 @media screen and (max-width:1000px){
     .header {
         display: flex;
-        justify-content:space-between;
-        align-items: center;
-        padding-top: 20px;
+        padding-top:20px;
+       padding-bottom:20px;
+        justify-content: center; 
     }
-}
-    p.mainMenu {
-        margin-left: 10px; 
-        margin-right: 10px;
-        display: block;
+}  
+@media screen and (max-width:1000px) {
+    .subject_a, a.schools, a.partners, a.support{  
+         display: none;
     }
-    
-    .logo {
-            width: 20px;
-            height: 40px;
-            left: 20px;
-            right: 20px;
-            top: 20px;
-        }
-    
-    .subject_a, a.schools, a.partners, a.support {
-            display: none;
-        }
+ 
+} 
     .main {
         display: grid;
+        grid-template-rows: 480px 480px;
         grid-template-rows: repeat(1,2fr);
     }
     div.orange, div.description{
-        width: 460px;
-        height: 800px;
-        padding: 0;
-        justify-items: start;
-       
+        width: 320px;
+        height: 480px;
+        padding: 0;      
 }
-    
+@media screen and (max-width:1000px){
+    h3, h1, h5 {
+        margin-left: 80px;
+    }
+  
 
-    
+}
+@media screen and (max-width:1000px){
+    h1.h-second {
+        margin-left: 120px;
+
+    }
+}
+@media screen and (max-width:1000px) {
+    button {
+      width: 150px;
+      height: 30px;
+      top: 30px;
+      margin-left: 170px;
+    }
+}
+
 
 
 
