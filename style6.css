@@ -145,14 +145,12 @@ div.description-meta {
         display: grid;
         grid-template-rows: repeat(1,2fr);
     }
-    @media screen and (max-width:1000px){
-        div.orange, div.education{
-            width: 36vw;
-            height: 480px;
-            padding: 0;   
-    }
-      
-}
+ @media screen and (max-width:1000px){
+ div.education, div.orange {
+     width: 36vw;
+     height: 820px;
+  }
+ 
 @media screen and (max-width:1000px){
     h3, h1, h5 {
         margin-left: 80px;
@@ -174,11 +172,7 @@ div.description-meta {
       margin-left: 170px;
     }
 }
-  @media screen and (max-width:1000px){
- div.education, div.orange {
-     width: 36vw;
-     height: 820px;
-  }
+
 
 
 
