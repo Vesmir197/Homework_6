@@ -73,7 +73,6 @@ a {
 main {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 820px 820px;
     font-family: 'Raleway';
 }
 h3 {
@@ -103,22 +102,22 @@ button {
     background-color: rgb(37, 37, 244);
     color: white;
 }
-div.program, div.education, div.orange, div.meta{
-    width: 200px;
+ div.education, div.orange{
+    width: 50.4vw;
     height: 820px;
 }
 div.description {
-    width: 437px;
-    height: 88px;
+    width: 30vw;
+    height: 60px;
     line-height: 1.5;
 
 }
 div.description-meta {
-    width: 520px;
+    width: 26vw;
     height: 170px;
-   line-height: 1.5;
+    line-height: 1.5;
  
-}
+
 
 @media screen and (max-width:1000px){
     .header {
@@ -127,10 +126,10 @@ div.description-meta {
        padding-bottom:20px;
         justify-content: center; 
     }
-}  
+} 
 @media screen and (max-width:1000px) {
     p.mainMenu{
-        padding-left: 20px;
+        left: 10px;
         padding-top: 20px;
         padding-bottom: 20px;
         display: block;
@@ -142,15 +141,17 @@ div.description-meta {
     }
  
 } 
-  .main {
+    .main {
         display: grid;
-        grid-template-rows: 480px 480px;
         grid-template-rows: repeat(1,2fr);
     }
-    div.orange, div.description{
-        width: 320px;
-        height: 480px;
-        padding: 0;      
+    @media screen and (max-width:1000px){
+        div.orange, div.education{
+            width: 36vw;
+            height: 480px;
+            padding: 0;   
+    }
+      
 }
 @media screen and (max-width:1000px){
     h3, h1, h5 {
@@ -173,6 +174,14 @@ div.description-meta {
       margin-left: 170px;
     }
 }
+  @media screen and (max-width:1000px){
+ div.education, div.orange {
+     width: 36vw;
+     height: 820px;
+  }
+
+
+
 
 
 
