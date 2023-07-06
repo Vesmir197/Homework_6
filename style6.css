@@ -73,110 +73,146 @@ a {
 main {
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 237vh 237vh;
     font-family: 'Raleway';
 }
 h3 {
-  margin-left: 210px;
-  margin-top: 186px;
   font-size: 16px;
   text-transform: uppercase;
-  color: blue;
+  color:blue;
   font-family: 'Raleway';
 }
 h1 {
+    margin-top: 10vh;
     font-weight: 700;
-    margin-left: 210px; 
+    font-size: 38px;
+}
+h5 {
+   margin-top:20vh;
+   color: rgb(94, 92, 92);
+   font-weight: 300;
 }
 
-h5 {
-    margin-left: 210px;
-    margin-top: 50px;
-    color: rgb(94, 92, 92);
-    font-weight: 300;
-}
 button {
-    width: 213px;
-    height: 55px;
-    margin-left: 260px;
-    margin-top: 40px;
+    width: 14vw;
+    height: 16vh;
+   
+    margin-top:12vh;
     background-color: rgb(37, 37, 244);
     color: white;
 }
- div.education, div.orange{
-    width: 50vw;
-    height: 820px;
+.program div {
+  margin-top: 50vh;
+  margin-left: 14vw;
 }
-div.description {
-    width: 30vw;
-    height: 60px;
+.meta div{
+    margin-top: 50vh;
+    margin-left: 8vw;
+    width: 36vw;
+    height: 10vh;
     line-height: 1.5;
-
 }
-div.description-meta {
-    width: 26vw;
-    height: 170px;
-    line-height: 1.5;
- 
-
-
-@media screen and (max-width:1000px){
-    .header {
-        display: flex;
-        padding-top:20px;
-       padding-bottom:20px;
-        justify-content: center; 
+.meta button {
+  margin-left: 10vw;
+}
+@media screen and (max-width:780px) {
+    main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 110vh;
+    font-family: 'Raleway';
     }
-} 
-@media screen and (max-width:1000px) {
+}
+@media screen and (max-width:780px) {
     p.mainMenu{
-        left: 10px;
+        margin-left: 4vw;
         padding-top: 20px;
         padding-bottom: 20px;
         display: block;
     }
 }
-@media screen and (max-width:1000px) {
-    .subject_a, a.schools, a.partners, a.support{  
+@media screen and (max-width:780px){
+  .logo {
+  margin-top:11vh;
+  margin-left: 5vw;
+  }
+}
+@media screen and (max-width:780px){
+  .subject {
+  margin-top:13vh;
+  margin-left:3vw;
+  }
+}
+@media screen and (max-width:780px) {
+    .about, a.schools, a.partners{  
          display: none;
     }
- 
-} 
-    .main {
-        display: grid;
-        grid-template-rows: repeat(1,2fr);
-    }
- @media screen and (max-width:1000px){
- div.education, div.orange {
-     width: 36vw;
-     height: 820px;
+}
+@media screen and (max-width:780px){
+  .ukr {
+  margin-left:4vw;
   }
- 
-@media screen and (max-width:1000px){
-    h3, h1, h5 {
-        margin-left: 80px;
-    }
+}
   
-
+@media screen and (max-width:780px){
+  .program div {
+  margin-top:20vh;
+  margin-left:8vw;
+  }
 }
-@media screen and (max-width:1000px){
-    h1.h-second {
-        margin-left: 120px;
-
+@media screen and (max-width:780px){
+  h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color:blue;
+  font-family: 'Raleway';
+  }
+}
+@media screen and (max-width:780px){
+    h1 {
+    margin-top: 4vh;
+    font-weight: 700;
+    font-size: 22px;
     }
 }
-@media screen and (max-width:1000px) {
-    button {
-      width: 150px;
-      height: 30px;
-      top: 30px;
-      margin-left: 170px;
-    }
+@media screen and (max-width:780px){
+h5 {
+   margin-top:10vh;
+   color: rgb(94, 92, 92);
+   font-weight: 300;
+   width:30vw;
 }
-
-
-
-
-
+}
+@media screen and (max-width:780px){
+     button {
+    width: 20vw;
+    height: 8vh;
+    margin-top:6vh;
+    background-color: rgb(37, 37, 244);
+  color: white;
+     }
+}
+@media screen and (max-width:780px){
+     .education img, .orange img {
+  width: 50vw;
+  height: 110vh;
+     }
+}
+@media screen and (max-width:780px){
+     .meta div{
+    margin-top: 30vh;
+    margin-left: 8vw;
+    width: 36vw;
+    height: 10vh;
+    line-height: 1.5;
+     }
+}
+@media screen and (max-width:780px){
+     .meta button {
+  margin-left: 8vw;
+       margin-top:2vh;
+     }
+}
 
 
 
