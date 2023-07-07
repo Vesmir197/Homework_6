@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Sintony&family=Tomorrow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Sintony&family=Tomorrow&display=swap');
 
@@ -97,7 +95,7 @@ h5 {
 button {
     width: 14vw;
     height: 8vh;
-   
+    border: 0px;
     margin-top:12vh;
     background-color: rgb(37, 37, 244);
     color: white;
