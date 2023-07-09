@@ -71,7 +71,6 @@ a {
 main {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 123vh 123vh;
     font-family: 'Raleway';
 }
 h3 {
